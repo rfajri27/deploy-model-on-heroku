@@ -8,6 +8,8 @@ Working in a command line environment is recommended for ease of use with git an
 
 ## Repositories
 
+[Link to the project repo](https://github.com/rfajri27/deploy-model-on-heroku)
+
 * Create a directory for the project and initialize Git and DVC.
    * As you work on the code, continually commit changes. Trained models you want to keep must be committed to DVC.
 * Connect your local Git repository to GitHub.
