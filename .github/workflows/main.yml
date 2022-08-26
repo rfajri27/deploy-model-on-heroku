@@ -29,9 +29,8 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{AKIA3TJKT7F2MWHGYOHW}}
-          aws-secret-access-key: ${{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}}
-          # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }} # if you have/need it
+          role-to-assume: arn:aws:iam::797342693748:user/rfajri275
+          role-session-name: rfajri275
           aws-region: us-east-1
 
       - name: Setup DVC
