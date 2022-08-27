@@ -17,9 +17,9 @@ row = {
     "native_country": "Honduras"
 }
 
-# response = requests.get('https://vin-project3-app.herokuapp.com/')
+# response = requests.get('https://fajri-project3-app.herokuapp.com/')
 response = requests.post(
-    url='https://vin-project3-app.herokuapp.com/inference',
+    url='https://fajri-project3-app.herokuapp.com/inference',
     json=row
 )
 
