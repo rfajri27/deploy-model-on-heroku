@@ -39,9 +39,9 @@ class RowData(BaseModel):
 
 if "DYNO" in os.environ and os.path.isdir(".dvc"):
     os.system("dvc config core.no_scm true")
-    os.system('rm -rf .dvc/cache')
-    os.system('rm -rf .dvc/tmp/lock')
-    os.system('dvc config core.hardlink_lock true')
+    # os.system('rm -rf .dvc/cache')
+    # os.system('rm -rf .dvc/tmp/lock')
+    # os.system('dvc config core.hardlink_lock true')
     if os.system("dvc pull -q") != 0:
         exit("dvc pull failed")
     os.system("rm -rf .dvc .apt/usr/lib/dvc")
