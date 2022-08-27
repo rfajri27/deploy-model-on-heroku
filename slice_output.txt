@@ -68,3 +68,10 @@ performance on sliced column -- race -- Black
 Precision:	0.8508960573476703
 Recall:	0.6055350082897589
 F-beta score:	0.7075478727367559
+
+--------------------------------------------------
+performance on sliced column -- race -- Black
+--------------------------------------------------             
+Precision:	0.8508960573476703
+Recall:	0.6055350082897589
+F-beta score:	0.7075478727367559
