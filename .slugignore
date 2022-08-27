@@ -1,0 +1,9 @@
+*.ipynb
+*.md
+request_app.py
+test_slice.py
+main.py
+slice_output.txt
+/test
+/screenshots
+/.github
